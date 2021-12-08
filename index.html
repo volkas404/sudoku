@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="assets\js\script.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="button_container">
+            <input class="button_class" id="easy_set" type="button" value="Dễ" onclick="easy_set()"/>
+            <input class="button_class" id="medium_set" type="button" value="Vừa" onclick="medium_set()"/>
+            <input class="button_class" id="hard_set" type="button" value="Khó" onclick="hard_set()"/>
+        </div>
+          
+        <table class=table_body>
+            <tbody>
+                <tr class="table_row">
+                    <td class="table_cell" id="c00"><input class="input_class" type="text" id="i00" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c01"><input class="input_class" type="text" id="i01" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c02"><input class="input_class" type="text" id="i02" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c03"><input class="input_class" type="text" id="i03" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c04"><input class="input_class" type="text" id="i04" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c05"><input class="input_class" type="text" id="i05" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c06"><input class="input_class" type="text" id="i06" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c07"><input class="input_class" type="text" id="i07" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c08"><input class="input_class" type="text" id="i08" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                </tr>
+                <tr class="table_row">
+                    <td class="table_cell" id="c10"><input class="input_class" type="text" id="i10" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c11"><input class="input_class" type="text" id="i11" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c12"><input class="input_class" type="text" id="i12" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c13"><input class="input_class" type="text" id="i13" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c14"><input class="input_class" type="text" id="i14" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c15"><input class="input_class" type="text" id="i15" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c16"><input class="input_class" type="text" id="i16" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c17"><input class="input_class" type="text" id="i17" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c18"><input class="input_class" type="text" id="i18" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                </tr>
+                <tr class="table_row" id="row3">
+                    <td class="table_cell" id="c20"><input class="input_class" type="text" id="i20" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c21"><input class="input_class" type="text" id="i21" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c22"><input class="input_class" type="text" id="i22" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c23"><input class="input_class" type="text" id="i23" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c24"><input class="input_class" type="text" id="i24" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c25"><input class="input_class" type="text" id="i25" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c26"><input class="input_class" type="text" id="i26" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c27"><input class="input_class" type="text" id="i27" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c28"><input class="input_class" type="text" id="i28" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                </tr>
+                <tr class="table_row">
+                    <td class="table_cell" id="c30"><input class="input_class" type="text" id="i30" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c31"><input class="input_class" type="text" id="i31" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c32"><input class="input_class" type="text" id="i32" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c33"><input class="input_class" type="text" id="i33" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c34"><input class="input_class" type="text" id="i34" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c35"><input class="input_class" type="text" id="i35" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c36"><input class="input_class" type="text" id="i36" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c37"><input class="input_class" type="text" id="i37" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c38"><input class="input_class" type="text" id="i38" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                </tr>
+                <tr class="table_row">
+                    <td class="table_cell" id="c40"><input class="input_class" type="text" id="i40" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c41"><input class="input_class" type="text" id="i41" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c42"><input class="input_class" type="text" id="i42" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c43"><input class="input_class" type="text" id="i43" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c44"><input class="input_class" type="text" id="i44" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c45"><input class="input_class" type="text" id="i45" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c46"><input class="input_class" type="text" id="i46" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c47"><input class="input_class" type="text" id="i47" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c48"><input class="input_class" type="text" id="i48" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                </tr>
+                <tr class="table_row" id="row6">
+                    <td class="table_cell" id="c50"><input class="input_class" type="text" id="i50" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c51"><input class="input_class" type="text" id="i51" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c52"><input class="input_class" type="text" id="i52" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c53"><input class="input_class" type="text" id="i53" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c54"><input class="input_class" type="text" id="i54" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c55"><input class="input_class" type="text" id="i55" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c56"><input class="input_class" type="text" id="i56" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c57"><input class="input_class" type="text" id="i57" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c58"><input class="input_class" type="text" id="i58" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                </tr>
+                <tr class="table_row">
+                    <td class="table_cell" id="c60"><input class="input_class" type="text" id="i60" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c61"><input class="input_class" type="text" id="i61" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c62"><input class="input_class" type="text" id="i62" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c63"><input class="input_class" type="text" id="i63" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c64"><input class="input_class" type="text" id="i64" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c65"><input class="input_class" type="text" id="i65" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c66"><input class="input_class" type="text" id="i66" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c67"><input class="input_class" type="text" id="i67" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c68"><input class="input_class" type="text" id="i68" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                </tr>
+                <tr class="table_row">
+                    <td class="table_cell" id="c70"><input class="input_class" type="text" id="i70" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c71"><input class="input_class" type="text" id="i71" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c72"><input class="input_class" type="text" id="i72" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c73"><input class="input_class" type="text" id="i73" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c74"><input class="input_class" type="text" id="i74" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c75"><input class="input_class" type="text" id="i75" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c76"><input class="input_class" type="text" id="i76" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c77"><input class="input_class" type="text" id="i77" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c78"><input class="input_class" type="text" id="i78" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                </tr>
+                <tr class="table_row">
+                    <td class="table_cell" id="c80"><input class="input_class" type="text" id="i80" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c81"><input class="input_class" type="text" id="i81" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c82"><input class="input_class" type="text" id="i82" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c83"><input class="input_class" type="text" id="i83" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c84"><input class="input_class" type="text" id="i84" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell table_cell_right" id="c85"><input class="input_class" type="text" id="i85" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c86"><input class="input_class" type="text" id="i86" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c87"><input class="input_class" type="text" id="i87" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                    <td class="table_cell" id="c88"><input class="input_class" type="text" id="i88" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" onclick="highlight_function(this.id)" ></td>
+                </tr>
+            </tbody>
+        </table>
+        <input class="button_class" id="validate" type="button" value="Kiểm tra" onclick="execute()"/> 
+    </div>
+</body>
+</html>

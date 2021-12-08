@@ -1,0 +1,113 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+}
+
+body {
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 25px;
+}
+
+.table_body {
+    border-collapse: collapse;
+    /* width: 80%; */
+    margin: auto;
+    border: 2px solid #344861;
+}
+
+input{
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  font-size: 25px;
+  border-collapse: collapse;
+  border: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  
+.table_row,
+.table_cell {
+  border: 1px solid #bec6d4;
+  text-align: center;
+  /* padding: 12px; */
+}
+
+.table_cell{
+  height: 60px;
+  width: 60px;
+}
+
+input:hover{
+  cursor: pointer;
+}
+
+#row3,#row6{
+  border-bottom: 2px solid #344861;
+}
+.table_cell_right{
+  border-right: 2px solid #344861;
+}
+
+input:disabled{
+  color: #696969		;
+}
+
+input:hover{
+  background-color: #d3eafc;
+}
+
+.input_class:focus{
+  background-color: #bbdefb !important;
+}
+
+.same_number{
+  background-color: #BBDEFB !important;
+}
+
+.highlight_color{
+  background-color: #e2e7ed;
+}
+
+.button_class{
+  height: 40px;
+  width: 100px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button_container{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: auto;
+}
+
+.main_container{
+    margin-top: 40px;
+}
+
+
+    
+
